@@ -1,0 +1,82 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica , sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+  /* HEADER BACKGROUND */
+header {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+/* HEADER BAR FRAME */
+header .container .bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin: 0 2rem;
+  position: relative;
+  top: 1rem;
+}
+
+/* COMPANY LOGO */
+header .container .bar .main-logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+header .container .bar .main-logo .logo {
+  margin-right: 1rem;
+}
+
+header .container .bar .main-logo .logo img {
+  height: 1.5rem;
+}
+ /* NAVIGATION */
+header .container .bar nav {
+  display: flex;
+  align-items: center;
+}
+
+header .container .bar nav ul {
+  display: flex;
+}
+/* NAVIGATION TEXT */
+header .container .bar nav ul li {
+  margin-left: 2rem;
+  color: white;
+}
+
+/* BANNER HEADER BACKGROUND*/
+header .container .banner {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+}
+/* BANNER HEADER TEXT */
+header .container .banner span {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+}
+/* MAIN CONTENT */
+main {
+  margin-top: 3rem;
+}
